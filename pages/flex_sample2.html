@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexSampleWebsite</title>
+    <style>
+        body {
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+        div {
+            display: flex;
+            flex-flow: row wrap;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: yellowgreen;
+            font-weight: bold;
+            padding: 30px;
+            height: 20vh;
+        }
+
+        footer {
+            background-color: yellowgreen;
+            font-weight: bold;
+            padding: 30px;
+            height: 20vh;
+
+        }
+
+        .article {
+            min-height: 100px;
+            order: 1;
+            flex: 6 0px;
+            padding: 100px;
+            padding-left: 50px;
+        }
+
+        .aside {
+            background-color: beige;
+            order: 2;
+            flex: 3 0px;
+            padding-top: 100px;
+        }
+
+        .nav {
+            order: 3;
+            background-color: #D7E8D4;
+            flex: 3 0px;
+            padding-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="headerContainer">Header</header>
+    <div class="divContainer">
+        <article class="article">Article</article>
+        <Aside class="aside">Aside</Aside>
+        <Nav class="nav">Nav</Nav>
+    </div>
+    <footer class="footerContainer">Footer</footer>
+</body>
+
+</html>

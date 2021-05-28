@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Latout</title>
+    <style>
+        body {
+
+            background-color: antiquewhite;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            background: 2px solid yellowgreen;
+
+
+        }
+
+        .mainarticle {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 0 0 200px;
+            margin: 10px;
+            width: 100px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+
+        }
+
+        .button {
+            align-content: center;
+        }
+
+        .block {
+            display: flex;
+            flex-flow: column wrap;
+            text-align: center;
+            padding: 0 20px 20px;
+
+        }
+
+        #pic {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <mainarticle class="main">
+        <article class="mainarticle">
+            <img id="pic" src="indai.PNG" alt="Sample photo">
+            <div class="block">
+                <h3>India</h3>
+                <p>A must visit country because of there history with various cultures in various places .</p>
+                <button>Here's Why</button>
+            </div>
+        </article>
+        <article class="mainarticle">
+            <img id="pic" src="thailand.PNG" alt="thailand">
+            <div class="block">
+                <h1>Thiland</h1>
+                <p>Tourism continues to be one of the sectors hit
+                    hardest by the COVID-19 pandemic...</p>
+                <button class="button">Here's Why</button>
+            </div>
+        </article>
+        <article class="mainarticle">
+            <img id="pic" src="malasiya.PNG" alt="malasiya">
+            <div class="block">
+                <h1>malasiya</h1>
+                <p>Tourism in a Post-Pandemic World</p>
+                <button>Here's Why</button>
+
+            </div>
+        </article>
+        <article class="mainarticle">
+            <img id="pic" src="singapur.PNG" alt="malasiya">
+            <div class="block">
+                <h1>Singapur</h1>
+                <p>A lovely place for tourism and also good for economic development</p>
+                <button>Here's Why</button>
+
+            </div>
+        </article>
+        <article class="mainarticle">
+            <img id="pic" src="lanka.PNG" alt="malasiya">
+            <div class="block">
+                <h1>Shri Lanka</h1>
+                <p>A place with a thriller stories and known for beautiful beaches</p>
+                <button>Here's Why</button>
+            </div>
+        </article>
+
+        <article class="mainarticle">
+            <img id="pic" src="myanmar.PNG" alt="Sample photo">
+            <div class="block">
+                <h3>Myanmar</h3>
+                <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+                <button>Stop here</button>
+            </div>
+        </article>
+
+
+    </mainarticle>
+
+</body>
+
+</html>
